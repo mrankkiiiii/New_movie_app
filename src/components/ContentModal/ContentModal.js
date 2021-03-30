@@ -62,7 +62,7 @@ export default function ContentModal({ children, media_type, id }) {
     // eslint-disable-next-line
   }, []);
   return (
-    <div>
+    <>
       <div
         className='media'
         color='inherit'
@@ -142,6 +142,6 @@ export default function ContentModal({ children, media_type, id }) {
           )}
         </Fade>
       </Modal>
-    </div>
+    </>
   );
 }
